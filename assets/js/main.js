@@ -981,7 +981,7 @@
             });
             
             
-            $('a.nav-link, .footer-quick-link a, a.scroll-link').on('click', function(e) {
+            $('a.nav-link, .footer-quick-link a, a.scroll-link, a.menu-item').on('click', function(e) {
                 e.preventDefault();
                 
                 var target = $(this).attr('href');
@@ -994,6 +994,7 @@
                     
                     
                     $('.nav-link').removeClass('active');
+                    $('.menu-item').removeClass('active');
                     $(this).addClass('active');
                 }
             });
