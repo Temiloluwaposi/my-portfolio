@@ -981,7 +981,7 @@
             });
             
             
-            $('a.nav-link, .footer-quick-link a, a.scroll-link, a.menu-item').on('click', function(e) {
+            $('a.nav-link, .footer-quick-link a.scroll-link, a.scroll-link, a.menu-item').on('click', function(e) {
                 e.preventDefault();
                 
                 var target = $(this).attr('href');
