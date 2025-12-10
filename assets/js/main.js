@@ -996,6 +996,7 @@
                     $('.nav-link').removeClass('active');
                     $('.menu-item').removeClass('active');
                     $('.item-menu-mobile').removeClass('active');
+                    $('.scroll-link').removeClass('active');
                     $(this).addClass('active');
                 }
             });
